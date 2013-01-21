@@ -1,5 +1,8 @@
 Polipo README
 =============
+regex support added using hsregex testing with mingw using:
+make -f Makefile_regex EXE=.exe EXTRA_DEFINES=-DHAVE_REGEX LDLIBS="-lwsock32"
+
 
 Polipo is single-threaded, non blocking caching web proxy that has
 very modest resource needs.  See the file INSTALL for installation
