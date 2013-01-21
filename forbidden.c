@@ -24,7 +24,7 @@ THE SOFTWARE.
 
 #ifndef NO_FORBIDDEN
 
-#include <regex.h>
+#include "regex.h"
 #include <assert.h>
 
 typedef struct _Domain {
